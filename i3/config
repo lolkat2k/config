@@ -13,7 +13,7 @@ set $mod Mod1
 
 
 ### My edits
-bindsym $mod+l exec i3lock -c 000000 -n
+bindsym $mod+Ctrl+l exec i3lock -c 000000 -n
 # unbind $mod+l: used for window shift
 # unbind $mod+f: used for fullscreen
 
@@ -51,8 +51,8 @@ bindsym $mod+d exec dmenu_run
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
-#bindsym $mod+l focus up
-bindsym $mod+ae focus right
+bindsym $mod+i focus up
+bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -76,7 +76,7 @@ bindsym $mod+Shift+Right move right
 bindsym $mod+h split h
 
 # split in vertical orientation
-bindsym $mod+v split v
+#bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
 #bindsym $mod+f fullscreen toggle
@@ -138,9 +138,9 @@ mode "resize" {
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
         bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym ae resize grow width 10 px or 10 ppt
+        bindsym i resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym l resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
