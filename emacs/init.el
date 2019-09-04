@@ -85,7 +85,5 @@
    '("melpa" . "http://melpa.milkbox.net/packages/")
    t))
 
-(require 'xcscope)
-
 (add-to-list 'kill-emacs-query-functions
              (lambda () (y-or-n-p "Should Emacs really close?")))
