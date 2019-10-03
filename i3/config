@@ -12,7 +12,7 @@
 set $mod Mod1
 
 # Lock screen.
-bindsym $mod+Ctrl+l exec i3lock -c 000000 -n
+bindsym $mod+Ctrl+l exec ~/.config/i3/rlock.sh ~/.config/i3/images/
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
