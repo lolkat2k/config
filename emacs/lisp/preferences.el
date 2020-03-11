@@ -16,4 +16,3 @@
 
 ;; Current theme.
 (load-theme 'charcoal-black t)
-
